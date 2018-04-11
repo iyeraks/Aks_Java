@@ -1,0 +1,15 @@
+public class This {
+int i;
+
+This(int a){
+this.i++;
+i++;
+}
+
+public static void main(String[] args){
+This o=new This(6);
+System.out.println(" "+ o.i);
+}
+}
+
+// output - 2
