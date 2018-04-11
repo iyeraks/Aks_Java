@@ -1,0 +1,14 @@
+public class A {
+int i = 10;
+
+public void assign(int i)
+{
+    i++;
+    System.out.println(this.i);
+}
+public static void main(String[] args){
+new A().assign(100);
+}
+}
+
+#output - 10
