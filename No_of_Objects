@@ -1,0 +1,28 @@
+
+     public static int count = 0;
+     
+     employee()
+     {
+         count++;
+         
+     }
+      /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        employee emp1 = new employee();
+        employee emp2 = new employee();
+        employee emp3 = null;
+        employee emp4 = null;
+        System.gc();
+        
+    
+        System.out.println("Number of objects created: " +count);
+        
+       
+        
+        
+        }
+        // TODO code application logic here
+    }
+    
