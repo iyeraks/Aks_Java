@@ -1,0 +1,25 @@
+class Policy {
+     public void readPolicy() {
+         System.out.println("Policy - Read");
+     }
+     public void writePolicy(){
+         System.out.println("Policy - Write");
+     }
+    
+}
+class MoneyBackPolicy extends Policy{
+    public void readPolicy(){
+        System.out.println("Money Back Policy - Read");
+        
+    }
+}
+
+public class OverridingTester{
+    public static void main(String[] args) {
+        Policy p = new MoneyBackPolicy();
+        p.readPolicy();
+    }
+}
+
+
+# output  - Money Back Policy - Read
