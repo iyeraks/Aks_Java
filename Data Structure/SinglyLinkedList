@@ -1,10 +1,10 @@
 /*
  Linked List is a data structures used for storing collection of elements or 
-objects or nodes having following pproperties
-1. It contains sequence of nodes.
-2. A node has data and reference to next Node.
-3. First node is the head node.
-4. Last node has data and points to null.
+objects or nodes having following properties :
+   It contains sequence of nodes.
+   A node has data and reference to next Node.
+   First node is the head node.
+   Last node has data and points to null.
  */
 
 // Below Program shows how to represent linklist in java
