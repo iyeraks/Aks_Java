@@ -57,3 +57,7 @@ public class SinglyLinkedlist {
     }
     
 }
+
+Output  // 10 --> 8 --> 1 --> 11 --> null
+
+
