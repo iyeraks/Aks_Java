@@ -8,6 +8,8 @@ objects or nodes having following pproperties
 4. Last node has data and points to null.
  */
 
+// Below Program shows how to represent linklist in java
+
 package datastructures;
 
 /**
