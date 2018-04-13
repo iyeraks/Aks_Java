@@ -1,0 +1,38 @@
+package datastructures;
+
+
+public class SinglyLinkedlist {
+    
+    private ListNode head;   // Head node to hold the list
+    
+    //It contains a static inner class ListNode
+    
+    private static class ListNode {
+        private int data;
+        private ListNode next;
+        
+        // Create Constructor which will initialize new node data passed in argument
+    
+        public ListNode(int data){
+            this.data = data;
+            this.next = null;
+        }
+    }
+    
+       public static void main(String[] args) {
+        // Lets create a linked list 
+        //  |10|  | --> |8| | --> |1| | --> |11| |--> null
+        // 10 as head node of linked list
+        
+        ListNode head = new ListNode(10);
+        ListNode second = new ListNode(8);
+        ListNode third = new ListNode(1);
+        ListNode fourth = new ListNode(11);
+        
+        //Attach them together to form a list
+        
+        head.next = second; // 10 --.> 8
+        second.next = third; // 10 --> 8 --> 1
+        third.next = fourth; // 10 --> 8 --> 1 --> 11 --> null
+        
+    }
