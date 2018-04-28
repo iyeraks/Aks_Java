@@ -1,0 +1,35 @@
+package basics;
+
+import java.util.Scanner;
+
+
+public class Basics {
+
+    public static void main(String[] args) {
+        // TODO code application logic here
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter a number");
+        int num;
+        num = sc.nextInt();
+         if(num > 0)
+             System.out.println("Positive number");
+         else if (num < 0) 
+             System.out.println("Negative number");
+         else 
+             System.out.println("Number is 0");
+         
+        }
+    }
+    
+    Output :
+    Enter a number:
+    12
+    Positive number
+    
+    Enter a number : 
+    -12
+    Negative number
+    
+    Enter a number :
+    0
+    Number is 0
